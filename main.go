@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -65,4 +66,6 @@ func main() {
 	UserRouteController.UserRoute(router)
 	PostRouteController.PostRoute(router)
 	log.Fatal(server.Run(":" + config.ServerPort))
+
+	fmt.Println(config.ServerPort)
 }
