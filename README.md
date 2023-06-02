@@ -8,7 +8,7 @@ Route yang tersedia :
 | GET | /api/auth/refresh | Refresh akses token |
 | GET | /api/auth/logout | Logout user |
 
-## Deployment ##
+Deployment
 Link URL : https://tugasakhir-production.up.railway.app/api/healthchecker
 
 *note : untuk beberapa route setelah deploy mengalami error (tidak berhasil melakukan login, logout, me)
